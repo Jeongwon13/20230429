@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+ 
+main {
+    width: 1200px;
+    
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.headerSec {
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+     
+}
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+ 
+ul {
+    display: flex;
+    padding: 50px;
+}
+
+ li {
+    display: flex;
+    padding: 8px 30px;
+ }
+
+ .lia {
+  
+    text-decoration: none;
+ }
+
+.mainSec {
+    display: flex;
+     
+    width: 50%;
+}
+
+#login {
+    display: flex;
+    justify-content: right;
+}
